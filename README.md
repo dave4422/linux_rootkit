@@ -54,34 +54,34 @@ $ ./cmd
 Usage: ./cmd [OPTION]... [PARAM]...
 
 Options:
-	--hide_fd 					[PATH] 		Hide a file at path
-	--unhide_fd 					[PATH] 		Unhide a file at path
+	--hide_fd 				[PATH] 		Hide a file at path
+	--unhide_fd 				[PATH] 		Unhide a file at path
 	
-	--hide_socket_tcp 				[PORT]		Hide tcp socket with port
-	--unhide_socket_tcp 				[PORT]		Unhide tcp socket with port
+	--hide_socket_tcp 			[PORT]		Hide tcp socket with port
+	--unhide_socket_tcp 			[PORT]		Unhide tcp socket with port
 	
-	--hide_ps 					[PID]		Hide process with pid
-	--unhide_ps 					[PID]		Unhide process with pid	
+	--hide_ps 				[PID]		Hide process with pid
+	--unhide_ps 				[PID]		Unhide process with pid	
 	
-	--hide_child_pid						Enable child process hiding
-	--unhide_child_pid						Disbale child process hiding
+	--hide_child_pid					Enable child process hiding
+	--unhide_child_pid					Disbale child process hiding
 	
-	--hide_mod 					[NAME]		Hide LKM by name
-	--unhide_mod 					[NAME]		Unhide LKM by name
+	--hide_mod 				[NAME]		Hide LKM by name
+	--unhide_mod 				[NAME]		Unhide LKM by name
 		
-	--hide_package_v4 				[IPV4]		Hide IPV4 packages from ip address
-	--hide_package_v4 				[IPV4]		Unhide IPV4 packages from ip address
+	--hide_package_v4 			[IPV4]		Hide IPV4 packages from ip address
+	--hide_package_v4 			[IPV4]		Unhide IPV4 packages from ip address
 	
-	--hide_package_v6 				[IPV6]		Hide IPV6 packages from ip address
-	--hide_package_v6 				[IPV6]		Unhide IPV6 packages from ip address
+	--hide_package_v6 			[IPV6]		Hide IPV6 packages from ip address
+	--hide_package_v6 			[IPV6]		Unhide IPV6 packages from ip address
 	
-	--port_knocking 				[PORT]		Enable port knocking at port
-	--disable_port_knocking 			[PORT]		Disable port knocking at port
+	--port_knocking 			[PORT]		Enable port knocking at port
+	--disable_port_knocking 		[PORT]		Disable port knocking at port
 	
-	--privilege_pid 				[PID]		Privilege process with pid
+	--privilege_pid 			[PID]		Privilege process with pid
 	
-	--log_on 								Enable keylogging
-	--log_off 								Disable keylogging
+	--log_on 						Enable keylogging
+	--log_off 						Disable keylogging
 
 ```
 
