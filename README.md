@@ -47,7 +47,7 @@ rmmod rootkit
 ```
 
 ## How to use?
-With the command and control programm, commands can be send to the rootkit over an IOCTl channel.
+With the command and control programm, commands can be send to the rootkit over an IOCTL channel.
 ```
 $ ./cmd
 
